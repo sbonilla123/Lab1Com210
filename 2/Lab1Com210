@@ -1,0 +1,110 @@
+package lab1Com210;         
+//Question2
+
+public class lab1Com210{
+
+public static void main(String[]args{
+    //question number 2
+int x;
+int y;
+int z;
+
+x=y=z=1;
+x+1;
+System.out.printIn(x);
+//x=2
+//+=is a notation to increment the x variable which mens that you add one to x which is one making x=2
+
+y=5;
+y=6;
+++x;
+Sysem.out.printIn(x);
+
+//x=6
+//++x means you increment the value of x prior to the calculation. This makes x 6.
+//y=12 for this instance
+
+x=5
+y=6 +x++;
+Systm.outprintIn(y);
+
+//y=11
+//the value of x would incrememt after the equation ws evaluated. Which would leave x as 5.
+    }
+}
+
+//Question3;
+import java.util.Scanner;
+public class lab1Com210pt3{
+
+       public static void main(String[]args{
+       Scanner kb = new Scanner (System.in);
+       
+       int num;
+       
+       System.out.printIn("Please enter a number");
+       num=kb.nextInt();
+       
+       if((num>40)||(num<10))
+       {//start if 1
+          System.out.printIn("number is out of bounds");
+          }//end if 1
+          
+          else
+          
+          {//start else
+             if(num%2==0)
+             System.out.printIn("The number is in bounds and even");
+          }//end else
+             
+   }
+   
+   //Question5;
+   
+   public static void main(String[]args){
+          for(int i=0; i<=1;i++)
+              {
+          for(int j=0;j<=1;j++)
+          
+              {
+                System.out.printIn(i+""+j);
+              }
+          }
+      }
+  }
+  
+  
+  //Question6;
+  
+  public static voi main(String[]args)
+  
+  {//main
+  
+     String B[]={"eggs","cereal","toast","bacon"};
+        int I[]={10,20,30,40};
+        
+     System.out.printIn(B[2]);//3rd term toast
+     System.out.printIn(I[3]);//4th term 4
+     System.out.printIn();
+     
+   //Print all values in B
+     System.out.printIn(arrays.toString(B));
+     
+   //return a cross
+     System.out.printIn();
+     for(int i=0; i<=B.length-1;i++)
+        {
+     for(int j=0; j<I.length-1;j++)
+        }
+     }
+   }
+   
+  System.out.printIn("It took three steps to print out all of the pairs");
+  
+    }//main
+    
+  }//class
+  
+  
+   
+   
